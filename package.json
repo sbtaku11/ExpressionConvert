@@ -1,8 +1,7 @@
 {
-	"name": "sbtaku11.expressionconvert",
+	"name": "com.sbtaku11.expressionconvert",
+	"version": "1.0.0",
 	"displayName": "ExpressionConvert",
-	"version": "1.0",
-	"unity": "2018.1",
 	"description": "Fast Binary Converter",
-  }
-  
+	"unity": "2018.1"
+}
