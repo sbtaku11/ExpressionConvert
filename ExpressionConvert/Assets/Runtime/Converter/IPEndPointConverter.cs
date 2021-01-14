@@ -25,7 +25,7 @@ namespace ExpressionConvert
 			if (exist)
 			{
 				IPAddressConverter.Default.GetBytes(src.Address, stream);
-				PrimitiveConverter.Default<int>().GetBytes(default, stream);
+				PrimitiveConverter.Default<int>().GetBytes(src.Port, stream);
 			}
 		}
 		public void FromBytes (ref IPEndPoint src, ConvertStreamReader stream)
